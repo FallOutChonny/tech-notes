@@ -36,12 +36,20 @@ Follow up: If this function is called many times, how would you optimize it?
  * @return {number}
  */
 var hammingWeight = function (n) {
+    // let res = 0
+    // while (n > 0) {
+    //     if (n % 2 > 0) res += 1
+    //     n = Math.floor(n / 2)
+    // }
+    // return res
+
+    // 将数字转为2进位字串，跑回圈找出1
     let res = 0
-    while (n > 0) {
-        if (n % 2 > 0) res += 1
-        n = Math.floor(n / 2)
+    n = n.toString(2).split('')
+
+    for (let i = 0; i< n.length, i++) {
+
     }
-    return res
 }
 
 console.log(hammingWeight(00000000000000000000000000001011))
