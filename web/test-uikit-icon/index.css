@@ -1,0 +1,15 @@
+.bn-spinner {
+    fill: rgb(240, 185, 11);
+    stroke: rgb(240, 185, 11);
+}
+
+.bn-spinner > svg {
+    width: 150px;
+    height: 150px;
+}
+
+.bn-spinner--img {
+    height: 36px;
+    width: 36px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36' height='36' viewBox='0 0 64 64' preserveAspectRatio='xMidYMid' style='margin: auto; display: block; shape-rendering: auto;'%3E%3Cg stroke-width='7' stroke-linecap='round' stroke='%23F0B90B'%3E%3Cline x1='10' x2='10'%3E%3Canimate attributeName='y1' dur='750ms' repeatCount='indefinite' values='16;18;28;18;16;16'%3E%3C/animate%3E%3Canimate attributeName='y2' dur='750ms' repeatCount='indefinite' values='48;46;36;44;48;48'%3E%3C/animate%3E%3Canimate dur='750ms' repeatCount='indefinite' attributeName='stroke-opacity' values='1;.4;.5;.8;1;1'%3E%3C/animate%3E%3C/line%3E%3Cline x1='24' x2='24'%3E%3Canimate attributeName='y1' dur='750ms' repeatCount='indefinite' values='16;16;18;28;18;16'%3E%3C/animate%3E%3Canimate attributeName='y2' dur='750ms' repeatCount='indefinite' values='48;48;46;36;44;48'%3E%3C/animate%3E%3Canimate dur='750ms' repeatCount='indefinite' attributeName='stroke-opacity' values='1;1;.4;.5;.8;1'%3E%3C/animate%3E%3C/line%3E%3Cline x1='38' x2='38'%3E%3Canimate attributeName='y1' dur='750ms' repeatCount='indefinite' values='18;16;16;18;28;18'%3E%3C/animate%3E%3Canimate attributeName='y2' dur='750ms' repeatCount='indefinite' values='44;48;48;46;36;44'%3E%3C/animate%3E%3Canimate dur='750ms' repeatCount='indefinite' attributeName='stroke-opacity' values='.8;1;1;.4;.5;.8'%3E%3C/animate%3E%3C/line%3E%3Cline x1='52' x2='52'%3E%3Canimate attributeName='y1' dur='750ms' repeatCount='indefinite' values='28;18;16;16;18;28'%3E%3C/animate%3E%3Canimate attributeName='y2' dur='750ms' repeatCount='indefinite' values='36;44;48;48;46;36'%3E%3C/animate%3E%3Canimate dur='750ms' repeatCount='indefinite' attributeName='stroke-opacity' values='.5;.8;1;1;.4;.5'%3E%3C/animate%3E%3C/line%3E%3C/g%3E%3C/svg%3E");
+}
